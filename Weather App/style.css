@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 2px solid black;
+    padding: 2em;
+    background-color: rgb(76, 158, 158);
+    height: auto;
+    max-width:40%;
+}
+.search-city .city-input{
+    width: 80%;
+    padding: 0.5em;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding-left: 0.9em;
+    font-size: 1em;
+}
+.search-city button{
+    padding: 0.5em 0.9em ;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail .cloud-img {
+    height: 8em;
+}
+.temp_data{
+    text-align: center;
+}
+.temp_data .temprature{
+    font-size: 6em;
+    font-weight: 400; 
+    padding-left: 40px;  
+}
+.temp_data .city{
+    font-weight: 500;
+    font-size: 1.6em;
+    /* padding-left: 15px; */
+}
+.additional-info {
+    display: flex;
+    gap: 1rem;
+}
+.additional-info  
+.wind-info,
+.Humidity-info,
+.Visi-info{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.3em;
+    margin-top: 20px;
+    border: 0.1em solid black;
+    padding: 0.4em;
+    border-radius: 1em;
+    text-align: center;
+}
+.additional-info i {
+    font-size: 1.3em;
+}
+.additional-info span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.additional-info  h3{
+    font-size: 16px;
+}

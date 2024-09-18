@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="search-city" action="">
+            <input class="city-input" type="text" placeholder="Enter City Name">
+            <button class="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+        <div class="detail">
+            <div class="img">
+                <img src="clouds.png" class="cloud-img">
+            </div>
+            <div class="temp_data">
+                <h2 class="temprature"></h1>
+                <p class="city">Chakia</p>
+            </div>
+        </div>
+
+        <div class="additional-info">
+
+            <div class="wind-info">
+                <i class='fas fa-wind'></i>
+                <div class="wind-details">
+                    <h3 class="wind-speed">3Km/h</h3>
+                    <span>Wind</span>
+                </div>
+            </div>
+            
+            <div class="Humidity-info">
+                <i class='fas fa-droplet'></i>
+                <div class="hum-details">
+                    <h3 class="Humidity">45%</h3>
+                    <span>Humidity</span>
+                </div>
+            </div>
+
+            <div class="Visi-info">
+                <i class='fas fa-eye'></i>
+                <div class="visi-details">
+                    <h3 class="visibility">3 km/h</h3>
+                    <span class="visibility-label">Visibility</span>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
