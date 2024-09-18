@@ -8,12 +8,6 @@ async function fetchWeather(city){
             throw new Error('Unable to fetch weather data ');
         }
         const data = await response.json();
-        // console.log(data);
-        // console.log(data.main.temp);
-        // console.log(data.name);
-        // console.log(data.main.humidity);
-        // console.log(data.visibility);
-        // console.log(data.wind.speed);
         updateWeather(data);
     } catch (error) {
         console.error(error);
